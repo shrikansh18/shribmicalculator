@@ -16,6 +16,12 @@ if st.button("calculate bmi"):
         elif 25 <= bmi < 29.9:
             st.write("You are overweight.")
         else:
-            st.write("You are obese get of the macdonalds and do some workout.")
+            st.write("You are obese Bitch please workout.")
     else:
         st.write("Please enter a valid height greater than 0.")
+        if st.button("Reset"):
+            name = ""
+            age = 0
+            height = 0.0
+            weight = 0.0
+            gender = "male"                     
